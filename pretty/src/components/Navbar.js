@@ -6,7 +6,7 @@ import { MainItem } from "./MainItem";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="NavberItem">
+      <nav className="NavbarList">
         <h1 className="navbar-logo">Pretty</h1>
         <ul className="nav-menu">
           {MenuItems.map((item, index) => {
