@@ -1,8 +1,32 @@
 .NavbarList {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-    margin: -8px -8px 0 -8px;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin: -8px -8px 0 -8px;
+}
+
+.navbar-logo {
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
